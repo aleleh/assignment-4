@@ -51,6 +51,11 @@ nav li {
     padding: 0 20px 0 20px;
 }
 
+nav li:hover {
+    color: var(--btn-color);
+    cursor: pointer;
+}
+
 
 .left-elements {
     float: left;
@@ -63,7 +68,7 @@ nav li {
 
 section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -73,7 +78,13 @@ section {
     width: 120px;
     height: 59.65px;
     border: none;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-sign-in:hover {
+    color: var(--btn-color);
+    cursor: pointer;
 }
 
 .btn-sign-up {
@@ -82,9 +93,15 @@ section {
     width: 120px;
     height: 59.65px;
     color: white;
+    font-size: 16px;
     font-weight: 700;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-sign-up:hover {
+    transform: translate(-0.05em, -0.05em);
+    cursor: pointer;
 }
 
 .main-container {
@@ -101,7 +118,7 @@ section {
 
     width: 495px;
     height: 152px;
-    margin-top: 40px;
+    margin: 40px 0 0 0;
 }
 
 .main-info {
@@ -109,10 +126,9 @@ section {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-
     width: 581.49px;
     height: 96px;
- 
+    margin: 30px 0 30px 0;
 }
 
 .btn-learn-more {
@@ -122,8 +138,16 @@ section {
     height: 63.82px;
     border: none;
     color: white;
+    font-size: 16px;
     font-weight: 700;
 }
+
+.btn-learn-more:hover {
+    transform: translate(-0.05em, -0.05em);
+    cursor: pointer;
+}
+
+
 
 img {
     width: 778px;
