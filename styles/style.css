@@ -51,17 +51,20 @@ nav li {
     padding: 0 20px 0 20px;
 }
 
-nav li:hover {
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
     color: var(--btn-color);
     cursor: pointer;
 }
-
 
 .left-elements {
     float: left;
     display: flex;
   }
-  
+ 
 .right-element {
     float: right;
 }
@@ -146,8 +149,6 @@ section {
     transform: translate(-0.05em, -0.05em);
     cursor: pointer;
 }
-
-
 
 img {
     width: 778px;
